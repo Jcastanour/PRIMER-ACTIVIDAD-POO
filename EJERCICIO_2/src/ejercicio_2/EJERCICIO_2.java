@@ -8,10 +8,11 @@ import java.util.Scanner;
 public class EJERCICIO_2 {
 
     public static void main(String[] args) {
-        double suma, x, y;
+        double suma=0, x, y;
         Scanner entrada = new Scanner(System.in);
-        suma = entrada.nextDouble();
+        System.out.print("Ingrese el valor de X: ");
         x = entrada.nextDouble();
+        System.out.print("Ingrese el valor de y: ");
         y = entrada.nextDouble();
         
         suma = suma + x;
